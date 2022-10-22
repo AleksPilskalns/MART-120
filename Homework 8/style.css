@@ -1,0 +1,16 @@
+*{text-align: center;}
+p{color:peru}
+h1{Color:rgb(226, 30, 112); text-size-adjust: x-large;}
+.underline{text-decoration: underline;}
+.blue{color:rgb(69, 69, 238)}
+#title-font{font-family:Georgia, 'Times New Roman', Times, serif;}
+
+a[href*='Homepage'] {
+    color: lightpink;
+  }
+
+  a[href*='Thirdpage'] {
+    color: lightpink;
+  }
+
+  a:hover{color: rgb(112, 186, 255);}

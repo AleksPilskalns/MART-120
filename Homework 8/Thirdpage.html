@@ -1,0 +1,54 @@
+<html>
+    <title>Contact Page</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script>
+    function checkboxes()
+    {
+      
+      var firstname = document.getElementById("Name").value;
+    if(firstname == "")
+      {window.alert("No name entered")};
+      {document.getElementById("Name").style.background = "red";
+    document.getElementById("Name").focus();}
+
+    var firstemail = document.getElementById("Email").value;
+    if(firstemail == "")
+      {window.alert("No email entered")};
+      {document.getElementById("Email").style.background = "red";
+    document.getElementById("Email").focus();}
+
+
+    
+  }
+
+ function check()
+ {
+  {window.alert("You've agreed to the terms of service")};
+
+ }
+
+ function checkno()
+ {
+  {window.alert("You declined to agree to the terms of service")};
+
+ }
+ 
+      
+     
+  </script>
+<body style="background-color:bisque">
+        Name: <input type="text" id="Name"><br>
+        Email: <input type="text" id="Email"><br>
+        <button type="button" class="btn btn-info"id="mysubmit" type="submit" onclick='checkboxes();'>Submit</button>
+        <h4>Do you accept the terms of agreement?</h4>
+        <input type="checkbox" name="checkyes" value="Yes" onclick='check();'>Yes<br>
+        <input type="checkbox" name="checkno" value="No" onclick='checkno();'>No<br>
+       
+
+    <a href="Homepage.html">Link to Home Page</a><br>
+    <a href="Secondpage.html">Link to Second Page</a><br>
+</body>
+</html>
