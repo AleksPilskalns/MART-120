@@ -27,6 +27,11 @@ function draw()
     point(261, 303);
 
     triangle(250, 310, 270, 310, 260, 320);
+
+    fill(500)
+    text('Stick!', 100, 400);
+
+    text('~Aleks~',10, 30);
    
 }
 
