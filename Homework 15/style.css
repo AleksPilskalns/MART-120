@@ -1,0 +1,25 @@
+body {
+    background: #000;
+    color: #fff;
+    padding: 25px;
+    font-family: sans-serif;
+  }
+  
+  
+  h1{
+    font-family: times-new-roman;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    font-style: italic;
+  }
+  
+  h2{
+    font-family: times-new-roman;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  p{
+    font-family: times-new-roman
+  }
+  
+  li{ font-family: times-new-roman}
+  
