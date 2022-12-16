@@ -1,25 +1,68 @@
 body {
-    background: #000;
-    color: #fff;
-    padding: 25px;
-    font-family: sans-serif;
-  }
+  
+  background: #000;
+  background-image: url('https://media.discordapp.net/attachments/783083940809408523/1052736367643340800/unknown-22.png?width=760&height=428');
+  background-repeat:no-repeat;
+  background-size:1600px 450px;
+  background-attachment: scroll;
   
   
-  h1{
-    font-family: times-new-roman;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    font-style: italic;
-  }
+ 
   
-  h2{
-    font-family: times-new-roman;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  }
+ 
+  color: #fff;
+  padding: 25px;
+  font-family: sans-serif;
+}
+
+
+h1{
+  font-family: times-new-roman;
+  text-shadow: 2px 4px black;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  font-style: italic;
+
+}
+
+h2{
+  font-family: times-new-roman;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+h3{
+
+  font-style: bold;
   
-  p{
-    font-family: times-new-roman
-  }
+  text-indent: 17px;
+  font-family: times-new-roman;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+p{
+  font-family: times-new-roman;
+  text-shadow: 1px 1px black;
+}
+
+li{ font-family: times-new-roman}
+
+div2 {
+  float:right;
+  width: 220px;
+  height: 180px;
+  padding: 10px;
+  border: 2px solid white;
+  margin: 0;
   
-  li{ font-family: times-new-roman}
-  
+}
+
+div {
+  width: 120px;
+  height: 180px;
+  padding: 10px;
+  border: 2px solid white;
+  margin: 0;
+}
+
+
+
